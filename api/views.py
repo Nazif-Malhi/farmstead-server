@@ -4,4 +4,5 @@ from django.http import HttpResponse
 
 
 def page(request):
+    print('runing')
     return HttpResponse("Hello World")
